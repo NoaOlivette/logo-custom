@@ -51,7 +51,7 @@ img {
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 998px) {
     .container {
         padding: 0 3rem;
     }
@@ -142,7 +142,7 @@ img {
     justify-content: center;
 }
 
-@media only screen and (max-width: 738px) {
+@media only screen and (max-width: 998px) {
     .navigation{
         padding: 1rem 0;
     }
@@ -284,7 +284,7 @@ img {
     z-index: -1;
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 998px) {
     .banniere-contenu .gauche .titre {
         font-size: 3rem;
     }
@@ -298,7 +298,7 @@ img {
     }
 }
 
-@media only screen and (max-width: 996px) {
+@media only screen and (max-width: 998px) {
     .banniere {
         height: calc(90vh - 7rem);
     }
