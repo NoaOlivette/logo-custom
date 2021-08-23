@@ -296,11 +296,15 @@ img {
     .banniere-contenu .droit img{
         width: 90%;
     }
+
+/*    .banniere-contenu {
+        height: 50%;
+    }*/
 }
 
 @media only screen and (max-width: 998px) {
     .banniere {
-        height: calc(90vh - 7rem);
+        height: 75rem;
     }
 
     .banniere-contenu .gauche {
@@ -413,11 +417,11 @@ img {
     color: var(--Primaire);
 }
 
-.produit .rating i :last-child {
+.produit .rating i:last-child {
     color: var(--Noir);
 }
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 998px) {
 
     .titre {
         font-size: 2rem;
