@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../produit.css">
 
 </head>
 <body>
@@ -36,15 +37,15 @@
                     <ul class="nav_list d-flex">
 
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link">Accueil</a>
+                            <a href="../index.html" class="nav-link">Accueil</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="./personnalisable.html" class="nav-link">Personnalisable</a>
+                            <a href="../personnalisable.html" class="nav-link">Personnalisable</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="./unique.html" class="nav-link">Unique</a>
+                            <a href="../unique.html" class="nav-link">Unique</a>
                         </li>
 
 
@@ -56,59 +57,44 @@
 
     </header>
 
-    <section class="section produits">
-        <div class="titre">
-            <h1><span>Logos</span> uniques</h1>
+
+    <div class="titre">
+        <h1>mon premier logo</h1>
+    </div>
+
+        <div class="produit">
+            <div class="img-cover">
+                <img src="../images/produit.png" alt="">
+            </div>
+            <p>Hp pavillon i5</p>
+          <div class="prix">192$</div>
         </div>
 
-        <div class="centre-produit container">
+    <div class="inputs-container">
+        <div class="inputs">
+            <input class="email" id="email" placeholder="Votre email Paypal">
 
-            <a href="./produits/1.html">
-                <div class="produit">
-                    <div class="img-cover">
-                        <img src="./images/produit.png" alt="">
-                    </div>
-                    <p>Hp pavillon i5</p>
-                  <div class="prix">192$</div>
-                </div>
-            </a>
+            <!--remplacer l'id de "pay" par le nom du produit-->
 
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./images/produit.png" alt="">
-                </div>
-                <p>Hp pavillon i5</p>
-                <div class="prix">192$</div>
-            </div>
-
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./images/produit.png" alt="">
-                </div>
-                <p>Hp pavillon i5</p>
-                <div class="prix">192$</div>
-            </div>
-
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./images/produit.png" alt="">
-                </div>
-                <p>Hp pavillon i5</p>
-                <div class="prix">192$</div>
-            </div>
-
-            <div class="produit">
-                <div class="img-cover">
-                    <img src="./images/produit.png" alt="">
-                </div>
-                <p>Hp pavillon i5</p>
-                <div class="prix">192$</div>
-            </div>
+            <button class="pay" id="1" onclick="payment()">Passer commande</button>
 
 
         </div>
 
-    </section>
+    </div>
+
+    <div class="p-container">
+        <h1>! Note importante !</h1>
+        <p>En cliquant sur "Passer commande" vous ne paierez rien, vous recevrez
+            uniquement la facture Paypal par mail. Après avoir payez avec Paypal
+            nous vous enverrons votre commande sur le même mail dans les plus
+            brefs délais.
+            Par soucis de clarté veuillez nous renseignez la même adresse mail
+            avec laquelle vous allez payer.
+        </p>
+    </div>
+
+
 
 
 
@@ -136,8 +122,17 @@
 
 
 
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_i8oZ7IRJb0YqULdhsekmp");
+        })();
+    </script>
 
-    <script type="text/javascript" src="./script.js"></script>
+
+    <script type="text/javascript" src="../script.js"></script>
 
 </body>
 </html>

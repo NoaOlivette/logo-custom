@@ -23,15 +23,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="400"
-     inkscape:cy="560"
+     inkscape:zoom="0.7"
+     inkscape:cx="1293.3155"
+     inkscape:cy="287.15116"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1008"
+     inkscape:window-height="1010"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,5 +78,49 @@
        y="37.797619"
        inkscape:export-xdpi="198"
        inkscape:export-ydpi="198" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:3.69045;stroke-linecap:square;paint-order:markers fill stroke"
+       id="rect834"
+       width="132.29167"
+       height="79.375"
+       x="291.79764"
+       y="37.797619"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198" />
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:2.33403;stroke-linecap:square;paint-order:markers fill stroke"
+       id="rect844"
+       width="79.375"
+       height="52.916668"
+       x="424.08929"
+       y="37.797619"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Authentic;-inkscape-font-specification:Authentic;letter-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+       x="437.74747"
+       y="68.030907"
+       id="text848"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198"><tspan
+         sodipodi:role="line"
+         id="tspan846"
+         x="437.74747"
+         y="68.030907"
+         style="fill:#ffffff;stroke-width:0.264583">PRODUIT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:Authentic;-inkscape-font-specification:Authentic;letter-spacing:0px;fill:#ff0000;stroke-width:0.264583;"
+       x="315.14261"
+       y="80.665794"
+       id="text852"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198"><tspan
+         sodipodi:role="line"
+         id="tspan850"
+         x="315.14261"
+         y="80.665794"
+         style="fill:#ff0000;stroke-width:0.264583;">LOGO-CUSTOM.COM</tspan></text>
   </g>
 </svg>

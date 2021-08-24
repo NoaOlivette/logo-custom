@@ -17,3 +17,40 @@ closeNav.addEventListener("click", () => {
         Menu.classList.remove("monter")
     }
 })
+
+function payment() {
+
+    let mail = document.getElementById("email").value
+
+    if (mail.includes('@') && mail.includes('.') && mail.length > 3) {
+
+        let templateParams = {
+            commande:  document.querySelector(".pay").id,
+            client: mail
+        }
+
+        emailjs.send('service_zuvr029', 'template_yry4syg', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                window.location.href = "../congratulations.html"
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+
+    }
+    else
+        alert("Votre mail n'est pas correct")
+
+
+}
+
+/*
+function sendMail() {
+    let link = "mailto:me@example.com"
+        + "?cc=myCCaddress@example.com"
+        + "&subject=" + encodeURIComponent("This is my subject")
+        + "&body=" + encodeURIComponent(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+}*/
