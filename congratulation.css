@@ -38,6 +38,14 @@ h4 {
     margin-bottom: 10rem;
 }
 
+.accueil-container {
+    margin-top: 20rem;
+    color: white;
+    background-color: var(--Primaire);
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    border-radius: 40px;
+}
+
 
 @media only screen and (max-width: 998px) {
 
