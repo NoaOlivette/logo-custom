@@ -10,7 +10,7 @@
 }
 
 h1 {
-    color: #222222;
+    color: var(--Noir);
     padding-bottom: 5rem;
 }
 
@@ -20,7 +20,7 @@ h1 span {
 
 h4 {
     padding-bottom: 2rem;
-    color: #888888;
+    color: var(--Gris);
 }
 
 .text-h4 {
@@ -40,7 +40,7 @@ h4 {
 
 .accueil-container {
     margin-top: 20rem;
-    color: white;
+    color: var(--Blanche);
     background-color: var(--Primaire);
     padding: 1.5rem 3rem 1.5rem 3rem;
     border-radius: 40px;
